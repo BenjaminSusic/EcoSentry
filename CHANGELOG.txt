@@ -1,0 +1,7 @@
+-----------------------------3.11.2026.------------------------------
+napravljen prvi mockup, napravljeni:
+	header
+	footer
+	poruka dobrodoslice
+	gumb za prijavu(vizualno)
+---------------------------------------------------------------------
