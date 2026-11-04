@@ -1,7 +1,15 @@
 -----------------------------3.11.2026.------------------------------
-napravljen prvi mockup, napravljeni:
+Napravljen prvi mockup, napravljeni:
 	header
 	footer
 	poruka dobrodoslice
 	gumb za prijavu(vizualno)
----------------------------------------------------------------------
+
+-----------------------------4.11.2026.------------------------------
+Dodani:
+	dropdown izbornik na gumbu
+	navigation bar
+	dodatne stranice korisnika:
+		Moje prijave
+		Karta
+		Profil
