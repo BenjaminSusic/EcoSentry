@@ -13,3 +13,7 @@ Dodani:
 		Moje prijave
 		Karta
 		Profil
+
+-----------------------------5.11.2026.------------------------------
+Dodane ikone
+Navigation bar centriran

@@ -6,14 +6,18 @@ body{
 }
 
 header{
+    display: flex;
+    column-gap: 10px;
     background-color: #073B32;
     color: white;
     padding: 20px; 
-    text-align: left;
     
 }
 
 .navbar ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
     list-style-type: none;
     background-color: #65B741;
     margin: 0px;
@@ -38,6 +42,8 @@ header{
 }
 
 button{
+    display: flex;
+    justify-content: center;
     background-color: #65B741; 
     color: white;
     padding: 10px 20px;
