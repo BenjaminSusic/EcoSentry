@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #F5F8F4;
     color: #26352D;
@@ -10,7 +16,7 @@ header{
     column-gap: 10px;
     background-color: #073B32;
     color: white;
-    padding: 20px; 
+    padding: 15px; 
     
 }
 
@@ -41,11 +47,30 @@ header{
     float: left;
 }
 
+.poruka{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.foto{
+    background-color:#65B741;
+    color:white;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 button{
     display: flex;
     justify-content: center;
-    background-color: #65B741; 
-    color: white;
+    background-color: #F5F8F4;
+    color: #65B741;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -54,7 +79,10 @@ button{
 }
 
 .dropdown{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F8F4;
+    border-radius: 12px;
 }
 
 .dropdown a{
@@ -67,9 +95,11 @@ button{
 .dropdown .content{
     display: none;
     position: absolute;
+    transform: translateY(50%);
     background-color: #c5dcbe;
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    border-radius: 12px;
 }
 
 .dropdown:hover .content{
@@ -78,11 +108,13 @@ button{
 
 .dropdown a:hover{
     background-color: #b6e0ab;
+    border-radius: 12px;
 }
 
 h1, h2, h3{
     font-weight: 700;
 }
+
 
 footer{
     background-color: #073B32;
