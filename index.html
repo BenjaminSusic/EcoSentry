@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="hr">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -17,11 +20,9 @@
     <body>
         <header>
             <a>
-                <img src="images/favicon.png" alt="Slika" style="height: 90px">
+                <img src="images/favicon.png" alt="Slika" class="logo">
             </a>
-            <h1 style="margin-top: 22px;">
-                EcoSentry
-            </h1>
+            <h1>EcoSentry</h1>
         </header>
 
         <!-- NavBar-->
@@ -42,41 +43,46 @@
             </ul>
         </nav>
 
-        <!-- Poruka -->
-        <div class="poruka">
-            <h1 style="margin-bottom: 0px;">Dobrodošli u EcoSentry</h1>
-            <p style="margin-top: 5px; margin-bottom: 0px;">Vaš pouzdan partner za čist okoliš i održivi razvoj.</p>
-        </div>            
-            
-        <div class="foto">
-            <i class="fa-regular fa-camera" style="float: left; margin-right: 5px;"></i>
-            <h4>Primijetio si ilegalno odlagalište?</h4>
-            <p style="font-size: 14px; margin-top: 10px; margin-bottom: 5px;">Prijavi ga i pomozi svojoj zajednici.</p>
+        <main>
+            <!-- Poruka -->
+            <div class="poruka">
+                <h1>Dobrodošli u EcoSentry</h1>
+                <p>Vaš pouzdan partner za čist okoliš i održivi razvoj.</p>
+            </div>            
+                
+            <div class="foto">
+                <div class="foto-naslov">
+                    <i class="fa-regular fa-camera"></i>
+                    <h4>Uočio si otpad?</h4>
+                </div>
 
-            <div class="dropdown">
-                <button>
-                    <i class="fa-solid fa-circle-plus"></i>
-                    Prijavi otpad
-                </button>
-                <div class="content">
-                    <a href="">Otvori kameru...</a>
-                    <a href="">Uvezi iz galerije...</a>
+                <p>Prijavi ga i pomozi svojoj zajednici.</p>
+
+                <div class="dropdown">
+                    <button>
+                        <i class="fa-solid fa-circle-plus"></i>
+                        Prijavi otpad
+                    </button>
+                    <div class="content">
+                        <a href="">Otvori kameru...</a>
+                        <a href="">Uvezi iz galerije...</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </main>
 
         <footer>
             <p>&copy; 2026 EcoSentry. Sva prava pridržana.</p>
             <p>
                 Sudionici:
             </p>
+            <p>
                 Vedriš Luka,
                 Murković Vjeran, 
                 Skerlev Ozren, 
                 Blažić Marta, 
                 Šušić Benjamin, 
                 Braje Hana
-
             </p>
         </footer>
         <script src="script.js"></script>

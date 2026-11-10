@@ -7,7 +7,7 @@ Napravljen prvi mockup, napravljeni:
 
 -----------------------------4.11.2026.------------------------------
 Dodani:
-	dropdown izbornik na gumbu
+	dropdown izbornik hoverom/pritiskom na gumb
 	navigation bar
 	dodatne stranice korisnika:
 		Moje prijave
@@ -17,3 +17,10 @@ Dodani:
 -----------------------------5.11.2026.------------------------------
 Dodane ikone
 Navigation bar centriran
+
+-----------------------------10.11.2026.------------------------------
+Redizajn, dodana kartica za prijave otpada
+		  centriran sadrzaj
+		  svaki inline css prebacen u style.css
+
+Sadrzaj prilagodjen drugim uredajima, responsive CSS (koristen AI)
